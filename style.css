@@ -43,3 +43,6 @@ h4 {
     font-weight: 700;
     height: 160px;
 }
+.rectangle.stroked:hover {
+    background-color: aqua;
+}
