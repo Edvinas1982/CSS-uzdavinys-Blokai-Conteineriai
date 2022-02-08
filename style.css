@@ -8,6 +8,14 @@
     height: 400px;
     background-color: rgb(35, 168, 245);
     margin-bottom: 20px;
+    position: relative;
+}
+p {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding-right: 7px;
 }
 .block {
     width: 25vw;
@@ -23,7 +31,7 @@
     border: solid 2px black;
     margin-bottom: 20px;
 }
-h4 {
+h4, p {
     margin-top: auto;
     text-align:right;
     padding-top: 3px;
